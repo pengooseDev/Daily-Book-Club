@@ -1,5 +1,13 @@
 ### 커밋 컨벤션 예시
 
+#### TIL작성
+
 > git commit -m "feat: {제목}"
 
-이외의 docs 작업 및 파일 작업에도 commit convention을 준수해주시면 감사하겠습니다. :)
+#### 이외의 docs 수정
+
+> git commit -m "docs: {내용}"
+
+#### 폴더 구조 수정
+
+> git commit -m "chore: {내용}"
