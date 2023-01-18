@@ -3,6 +3,7 @@
 - 블로그 <개발 잡학사전> Map/HashMap/TreeMap/Hashtable 차이점 ⇒ [**링크**](https://genie247.tistory.com/entry/MapHashMapTreeMapHashtable-%EC%B0%A8%EC%9D%B4%EC%A0%90)
 - 블로그 <코딩팩토리> 자바 TreeMap 사용법 & 예제 총정리 ⇒ [**링크**](https://coding-factory.tistory.com/557)
 - AbstractMAp, HashMap ⇒ [**링크**](https://sup2is.github.io/2019/09/30/abstractmap-hashmap.html)
+- Naver D2 Java HashMap은 어떻게 동작하는가? ⇒ [**링크**](https://d2.naver.com/helloworld/831311)
 
 # 내용
 
@@ -40,3 +41,15 @@
 - Key 또는 Value 값으로써 null을 허용한다.
     - 하지만 HashMap이 여러 개의 null key를 가질 수 없다.
       하나의 null key와 여러 개의 null Value를 저장할 수 있다.
+
+**❓  HashMap이 null을 허용하는 이유는?**
+
+-
+
+## 공부하면서 느낀 점
+
+Map에 대한 개념을 책으로 읽기는 했지만, 코드를 직접 들여다 본 적이 없었습니다.  
+개념을 학교 다닐 때 시험 공부를 하듯이 했던 것 같다.  
+위 지식이 진짜 내 것이 되기 위해서는 끊임없이 고민하고 ‘왜?’를 나 자신에게 던져야 한다는 것을 느꼈습니다.  
+위에 작성한 Map에 대한 개념도 너무 급조해서 작성한 것이고 아직 부족하다고 생각합니다.  
+더 고민해보고 코드로 작성해보고 진정한 내 것으로 만들 것 입니다.  
