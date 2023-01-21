@@ -1,0 +1,129 @@
+## 변수의 선언
+
+### n='n'
+
+함수 외부에서 실행되었을 때 : `Global Scope`에 저장.
+함수 내부에서 실행되었을 때 : `Global Scope`에 저장.
+
+- 웹 브라우저에서 Global Scope는 window를 뜻한다. 따라서, 이러한 방식으로 변수를 선언하는 행위는 window의 필드를 잘못 건드릴 수 있기 때문에 지양해야하는 방식이다.
+
+### var v = 'v'
+
+함수 외부에서 실행되었을 때 : `Global Scope`에 저장.
+함수 내부에서 실행되었을 때 : `Local Scope`에 저장.
+
+### let l = 'l'
+
+함수 외부에서 실행되었을 때 : `Script Scope`에 저장.
+함수 내부에서 실행되었을 때 : `Local Scope`에 저장.
+
+### const c = 'c'
+
+함수 외부에서 실행되었을 때 : `Script Scope`에 저장.
+함수 내부에서 실행되었을 때 : `Local Scope`에 저장.
+
+---
+
+## Scope Chaining
+
+### 함수 내부의 경우
+
+1. Local Scope를 뒤져봄.
+2. Script scope를 뒤져봄. 있으면 사용.
+3. 없으면 Global scope를 뒤져봄.
+
+### 함수 외부의 경우
+
+1. Script scope를 뒤져봄. 있으면 사용
+2. 없으면 Global scope를 뒤져봄.
+
+웹 브라우저에서 Global Scope란`window` 객체를 가르킴.
+
+---
+
+## Local Scope
+
+현재 실행 컨텍스트 상의 Lexical Scope
+
+## 3. CallStack
+
+CallStack이란 대단한게 아님. `실행중인 함수`라고 이름 바꾸면 전국민 이해 가능.
+`함수를 중첩`해서 사용한다면, 우리는 이미 콜스택을 이해하고 있다는 뜻임.
+
+```js
+const a = () => {
+  console.log('a start');
+  b();
+  console.log('a end');
+};
+
+const b = () => {
+  console.log('b start');
+  console.log('b end');
+};
+
+a();
+```
+
+위의 상황에서 a함수를 실행하면
+
+1. a를 콜스택에 추가(말만 번지르르하지 그냥 `a실행중`이라는 뜻임)
+2. console.log('a start')
+3. b 콜스택에 추가(b를 실행했다는 뜻임)
+4. console.log('b start')
+5. console.log('b end')
+6. b 콜스택에서 삭제(b가 끝났다는 뜻임)
+7. console.log('a end')
+8. a 콜스택에서 삭제(a가 끝났다는 뜻임)
+
+순서대로 진행됨.
+
+JS의 CallStack은 우리가 실행한 함수(execute context)가 실행되면 stack에 추가하고, 함수가 끝나면 삭제하는 간단한 개념.
+
+---
+
+## Execute context
+
+함수를 실행하면 실행 컨텍스트(execute context)가 JS엔진의 call Stack에 쌓인다.
+함수 내부에서 접근할 수 있는 Scope는 크게 두 부분이다.
+
+1. Local Scope
+2. Global Scope(Global Scope, Script Scope)
+
+```js
+// 1. 선언과 할당
+n0 = 'n0'; //Global Scope 저장.
+var v0 = 'v0'; //Global Scope 저장.
+let l0 = 'l0'; //Script Scope 저장.
+const c0 = 'c0'; //Script Scope 저장.
+console.log(v0, n0, l0, c0);
+console.log(window.v0, window.n0, window.l0, window.c0); //v0 c0 undefined undefined
+
+function fn2() {
+  n2 = 'n2';
+  console.log(n0, n1, n2); //n0, n1, n2 전부 GlobalScope이기 때문에 불러오기 가능.
+  var v2 = 'v2';
+  console.log(v0, v2); // v0는 GloblScope, v2는 v2의 Local Scope이기 때문에 불러오기 가능.
+  // console.log(v1) //v1은 fn1의 LocalScope의 Local Scope이기 때문에 불러오기 불가능. 에러남.
+  let l2 = 'l2';
+  console.log(l0, l2);
+  // console.log(l1); // l1은 fn1의 LocalScope의 Local Scope이기 때문에 불러오기 불가능. 에러남.
+  const c2 = 'c2;';
+  console.log(c0, c2); // c0는 Global의 Script Scope, 이기 때문에 불러오기 가능.
+  // console.log(c1); // c1은 fn1의 LocalScope의 Local Scope이기 때문에 불러오기 불가능. 에러남.
+}
+
+// 2. 함수의 선언과 실행 컨텍스트
+function fn1() {
+  // 3. CallStack
+  n1 = 'n1'; //n1를 선언 및 할당해도 Local Scope에 영향이 없다. 여전히 Global Scope에 저장.
+  var v1 = 'v1';
+  let l1 = 'l1';
+  const c1 = 'c1';
+  fn2();
+}
+
+fn1();
+console.log(n2);
+// console.log(v2, l2, c2);
+```
