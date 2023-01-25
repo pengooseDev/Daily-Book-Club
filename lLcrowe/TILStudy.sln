@@ -8,7 +8,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		GPhysic에서 나오는 정보들을 공부해보자.md = GPhysic에서 나오는 정보들을 공부해보자.md
 		Shader공부.md = Shader공부.md
 		Unity ECS, Unity DOTS 기초공부.md = Unity ECS, Unity DOTS 기초공부.md
+		게임개발에 대해 개인적으로 생각해봐야될것.md = 게임개발에 대해 개인적으로 생각해봐야될것.md
 		그림공부.md = 그림공부.md
+		어드레서블 공부.md = 어드레서블 공부.md
 		인공지능 디스토피아 관련.md = 인공지능 디스토피아 관련.md
 	EndProjectSection
 EndProject
