@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a40730d-5760-4804-926c-7836edcf2714" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/yarogono/Java/자바의신/1) 프로그램이란 무엇인가.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarogono/OS/운영체제와 정보기술의 원리/2장 운영체제의 개요.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarogono/OS/운영체제와 정보기술의 원리/2장 운영체제의 개용.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,8 @@
       <workItem from="1675056538107" duration="55000" />
       <workItem from="1675177060758" duration="431000" />
       <workItem from="1675178076555" duration="97000" />
-      <workItem from="1675235748775" duration="318000" />
+      <workItem from="1675235748775" duration="475000" />
+      <workItem from="1675639866619" duration="452000" />
     </task>
     <servers />
   </component>
