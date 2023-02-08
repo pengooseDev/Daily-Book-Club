@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a40730d-5760-4804-926c-7836edcf2714" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/yarogono/F-lab/Java/5주 차/Is-a has-a 관계.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +36,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.scopes"
   }
 }]]></component>
@@ -104,6 +108,10 @@
       <workItem from="1675669875602" duration="21000" />
       <workItem from="1675779421054" duration="801000" />
       <workItem from="1675822655097" duration="28000" />
+      <workItem from="1675833069952" duration="53000" />
+      <workItem from="1675833257776" duration="122000" />
+      <workItem from="1675834726821" duration="5000" />
+      <workItem from="1675835309641" duration="13000" />
     </task>
     <servers />
   </component>
