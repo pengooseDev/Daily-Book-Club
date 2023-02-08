@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a40730d-5760-4804-926c-7836edcf2714" name="Changes" comment="" />
+    <list default="true" id="9a40730d-5760-4804-926c-7836edcf2714" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +19,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KLIUdsnIY4Zb6PzFDI6RL4ER5k" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,7 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/coding/전혁/java/Daily-Book-Club",
+    "last_opened_file_path": "D:/coding/전혁/java/Daily-Book-Club/yarogono/studyCode",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,7 +102,8 @@
       <workItem from="1675639866619" duration="735000" />
       <workItem from="1675640719065" duration="788000" />
       <workItem from="1675669875602" duration="21000" />
-      <workItem from="1675779421054" duration="613000" />
+      <workItem from="1675779421054" duration="801000" />
+      <workItem from="1675822655097" duration="28000" />
     </task>
     <servers />
   </component>
