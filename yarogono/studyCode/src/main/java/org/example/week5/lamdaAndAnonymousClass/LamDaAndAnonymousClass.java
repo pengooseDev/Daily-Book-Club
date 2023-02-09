@@ -1,4 +1,4 @@
-package org.example.week4.lamdaAndAnonymousClass;
+package org.example.week5.lamdaAndAnonymousClass;
 
 import java.util.Comparator;
 

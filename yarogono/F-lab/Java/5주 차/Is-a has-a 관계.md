@@ -17,7 +17,7 @@
 
 ---
 
-![main-qimg-5e179dad2321fbace5731c7d0b782337.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ab7cc348-c21d-4103-93af-cf7bc7607721/main-qimg-5e179dad2321fbace5731c7d0b782337.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230208T051610Z&X-Amz-Expires=86400&X-Amz-Signature=c62adde85968c9932f0e072e30fd4e12271d67a24e144fb7b87b8e79cc67e957&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22main-qimg-5e179dad2321fbace5731c7d0b782337.png%22&x-id=GetObject)
+![main-qimg-5e179dad2321fbace5731c7d0b782337.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ab7cc348-c21d-4103-93af-cf7bc7607721/main-qimg-5e179dad2321fbace5731c7d0b782337.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230209%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230209T231724Z&X-Amz-Expires=86400&X-Amz-Signature=3d3a6244bb60e8c7bf4c7922c2618e4a7e017d4b9010f2b514b69be71e4efb28&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22main-qimg-5e179dad2321fbace5731c7d0b782337.png%22&x-id=GetObject)
 
 ## ❓is-a 란?
 

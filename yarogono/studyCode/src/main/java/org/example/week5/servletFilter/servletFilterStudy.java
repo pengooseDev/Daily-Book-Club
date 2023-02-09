@@ -1,4 +1,4 @@
-package org.example.week4.servletFilter;
+package org.example.week5.servletFilter;
 
 import javax.servlet.*;
 import java.io.IOException;
