@@ -35,6 +35,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.scopes"
   }
 }]]></component>
@@ -104,6 +107,12 @@
       <workItem from="1675669875602" duration="21000" />
       <workItem from="1675779421054" duration="801000" />
       <workItem from="1675822655097" duration="28000" />
+      <workItem from="1675833069952" duration="53000" />
+      <workItem from="1675833257776" duration="122000" />
+      <workItem from="1675834726821" duration="5000" />
+      <workItem from="1675835309641" duration="13000" />
+      <workItem from="1675869794313" duration="30000" />
+      <workItem from="1675908023589" duration="1204000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-package org.example.week1;
+package org.example.week2;
 
 import sun.misc.Unsafe;
 
