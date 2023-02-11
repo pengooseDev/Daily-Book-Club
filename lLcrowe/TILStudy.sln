@@ -3,6 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8C54AC0F-7B14-41B9-9223-0C967ECC4972}"
+	ProjectSection(SolutionItems) = preProject
+		c, c++ 공부.md = c, c++ 공부.md
+		GPhysic에서 나오는 정보들을 공부해보자.md = GPhysic에서 나오는 정보들을 공부해보자.md
+		Shader그래프공부.md = Shader그래프공부.md
+		Unity ECS, Unity DOTS 기초공부.md = Unity ECS, Unity DOTS 기초공부.md
+		게임개발에 대해 개인적으로 생각해봐야될것.md = 게임개발에 대해 개인적으로 생각해봐야될것.md
+		그래픽 랜더링 파이프라인 (3D그래픽스)(DX11) 공부.MD = 그래픽 랜더링 파이프라인 (3D그래픽스)(DX11) 공부.MD
+		그림공부.md = 그림공부.md
+		수포자를 위한 수학.md = 수포자를 위한 수학.md
+		알고리즘 및 코테공부.md = 알고리즘 및 코테공부.md
+		어드레서블 공부.md = 어드레서블 공부.md
+		인공지능 디스토피아 관련.md = 인공지능 디스토피아 관련.md
+		컴퓨터 사이언스공부.md = 컴퓨터 사이언스공부.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

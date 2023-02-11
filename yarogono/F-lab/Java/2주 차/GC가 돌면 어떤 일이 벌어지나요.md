@@ -50,13 +50,13 @@ GC가 주로 동작하는 무대인 Heap에 대해 더 알아봐야 할 것 같�
 
 ## 4. 객체를 저장하는 힙(Heap)의 구조는?
 
-![images_recordsbeat_post_682408fc-f29e-42e9-b980-3d6f1d6c4989_image.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/880b00ca-73df-4372-9851-c406a9c6919e/images_recordsbeat_post_682408fc-f29e-42e9-b980-3d6f1d6c4989_image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230120%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230120T023204Z&X-Amz-Expires=86400&X-Amz-Signature=ad2aa6dabbd9e67518c0c932965a6c023755e325d3e33fa7063ddfce3317020a&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22images_recordsbeat_post_682408fc-f29e-42e9-b980-3d6f1d6c4989_image.png%22&x-id=GetObject)
+![images_recordsbeat_post_682408fc-f29e-42e9-b980-3d6f1d6c4989_image.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/880b00ca-73df-4372-9851-c406a9c6919e/images_recordsbeat_post_682408fc-f29e-42e9-b980-3d6f1d6c4989_image.png)
 
 객체의 생존 기간에 따라 물리적인 Heap 영역을 나눠져 있다.
 
 Young, Old, Perm 영역 총 3가지 영역이 있었지만, Perm 영역은 Java8부터 제거되었다.
 
-![Young 영역.JPG](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/87449c2d-e9b2-4fe4-8def-96cd16a128f1/Young_%EC%98%81%EC%97%AD.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230120%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230120T023222Z&X-Amz-Expires=86400&X-Amz-Signature=9b6f801dd57d28b4d36847c8aae533414bc72e2caa8931802f83a73db7becb98&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Young%2520%25EC%2598%2581%25EC%2597%25AD.JPG.jpg%22&x-id=GetObject)
+![Young 영역.JPG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/87449c2d-e9b2-4fe4-8def-96cd16a128f1/Young_%EC%98%81%EC%97%AD.jpg)
 
 ### Young 영역(Young Generation)
 
