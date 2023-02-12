@@ -17,16 +17,3 @@ public class ImmutableStudy {
         return age;
     }
 }
-
-class ttttttest {
-    public static void main(String[] args) {
-        ImmutableStudy immutableStudy = new ImmutableStudy("test", 10);
-        System.out.println(immutableStudy.getAge());
-        System.out.println(immutableStudy.getName());
-
-        immutableStudy = new ImmutableStudy("test2", 50);
-        System.out.println(immutableStudy.getAge());
-        System.out.println(immutableStudy.getName());
-        String
-    }
-}
