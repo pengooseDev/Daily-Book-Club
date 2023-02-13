@@ -7,25 +7,17 @@ public class DeepCopyAndShallowCopy {
         System.out.println(copiedShallowCopyUser.getAge() + " " + copiedShallowCopyUser.getName());
         System.out.println(shallowCopyUser.hashCode() + "\n" + copiedShallowCopyUser.hashCode());
 
-        try {
-            DeepCopyUser deepCopyUser = new DeepCopyUser("딥카피", 50);
-            DeepCopyUser copiedDeepCopyUser = (DeepCopyUser) deepCopyUser.clone();
-            System.out.println(copiedDeepCopyUser.getAge() + " " + copiedDeepCopyUser.getName());
-            System.out.println(deepCopyUser.hashCode() + "\n" + copiedDeepCopyUser.hashCode());
-        } catch (Exception e) {
-            System.out.println(e);
-        }
+        DeepCopyUser deepCopyUser = new DeepCopyUser("딥카피", 50);
+        DeepCopyUser copiedDeepCopyUser = new DeepCopyUser(deepCopyUser.getName(), deepCopyUser.getAge());
+        System.out.println(copiedDeepCopyUser.getAge() + " " + copiedDeepCopyUser.getName());
+        System.out.println(deepCopyUser.hashCode() + "\n" + copiedDeepCopyUser.hashCode());
     }
 }
 
-class ShallowCopyUser implements Cloneable {
+class ShallowCopyUser {
     private String name;
     private int age;
 
-    @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
-    }
     public ShallowCopyUser(String name, int age) {
         this.name = name;
         this.age = age;
@@ -41,14 +33,9 @@ class ShallowCopyUser implements Cloneable {
 }
 
 
-class DeepCopyUser implements Cloneable {
+class DeepCopyUser {
     private String name;
     private int age;
-
-    @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
-    }
 
     public DeepCopyUser(String name, int age) {
         this.name = name;
