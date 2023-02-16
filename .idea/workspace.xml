@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a40730d-5760-4804-926c-7836edcf2714" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarogono/studyCode/src/main/java/org/example/week5/ArrayCopy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +30,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/coding/전혁/java/Daily-Book-Club/yarogono/studyCode",
+    "last_opened_file_path": "D:/coding/전혁/java/Daily-Book-Club",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -123,6 +123,11 @@
       <workItem from="1676256814566" duration="26000" />
       <workItem from="1676294883031" duration="56000" />
       <workItem from="1676295480130" duration="16000" />
+      <workItem from="1676331254402" duration="170000" />
+      <workItem from="1676336515717" duration="10000" />
+      <workItem from="1676413658107" duration="130000" />
+      <workItem from="1676466290583" duration="8000" />
+      <workItem from="1676517958929" duration="70000" />
     </task>
     <servers />
   </component>
