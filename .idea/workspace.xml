@@ -29,7 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/coding/전혁/java/Daily-Book-Club",
+    "last_opened_file_path": "D:/coding/전혁/java/project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -143,7 +143,8 @@
       <workItem from="1677192520057" duration="60000" />
       <workItem from="1677199579294" duration="390000" />
       <workItem from="1677208496834" duration="143000" />
-      <workItem from="1677288474649" duration="464000" />
+      <workItem from="1677288474649" duration="1209000" />
+      <workItem from="1677293643953" duration="5000" />
     </task>
     <servers />
   </component>
