@@ -21,7 +21,12 @@ Precise Map
 
 -=20230128
 PID 세팅값을 못찾겠다.  
-LeadCollision 로직구해서 설정완료.  
+
+//20230222PID 설정관련 영상을 찾음
+https://www.youtube.com/watch?v=qKy98Cbcltw&ab_channel=Horizon4electronics
+
+
+
 
 
 
