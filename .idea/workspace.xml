@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a40730d-5760-4804-926c-7836edcf2714" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +30,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/coding/전혁/java/Daily-Book-Club",
+    "last_opened_file_path": "D:/f-lab/project/fitness-partner",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -152,6 +153,9 @@
       <workItem from="1677502641702" duration="20000" />
       <workItem from="1677601074381" duration="691000" />
       <workItem from="1677714024656" duration="75000" />
+      <workItem from="1677727018189" duration="927000" />
+      <workItem from="1677804764867" duration="645000" />
+      <workItem from="1677806326430" duration="143000" />
     </task>
     <servers />
   </component>
