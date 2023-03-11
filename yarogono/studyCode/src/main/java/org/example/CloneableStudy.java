@@ -1,4 +1,4 @@
-package org.example.week6;
+package org.example;
 
 
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package org.example.week4;
+package org.example;
 
 public class BlockingNonBlockingSyncAsync {
 

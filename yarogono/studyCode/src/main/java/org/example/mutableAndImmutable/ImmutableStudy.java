@@ -1,4 +1,4 @@
-package org.example.week5.mutableAndImmutable;
+package org.example.mutableAndImmutable;
 
 public class ImmutableStudy {
     private final String name;
