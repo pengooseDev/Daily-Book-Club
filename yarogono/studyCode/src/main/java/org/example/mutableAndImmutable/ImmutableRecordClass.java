@@ -1,4 +1,4 @@
-package org.example.week5.mutableAndImmutable;
+package org.example.mutableAndImmutable;
 
 public record ImmutableRecordClass(String name, int age) {
 }

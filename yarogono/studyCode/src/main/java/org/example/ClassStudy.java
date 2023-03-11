@@ -1,4 +1,4 @@
-package org.example.week7;
+package org.example;
 
 
 // 접근제어자(public) 키워드(class) 클래스명(ClassStudy)

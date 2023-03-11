@@ -1,4 +1,4 @@
-package org.example.week8;
+package org.example;
 
 public class SuperKeywordStudy {
 

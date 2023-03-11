@@ -1,4 +1,4 @@
-package org.example.week5.composition;
+package org.example.composition;
 
 class Engine {
     public void work() { }

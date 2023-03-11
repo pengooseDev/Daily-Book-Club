@@ -1,4 +1,4 @@
-package org.example.week5;
+package org.example;
 
 public class CallByReferenceStudy {
 
