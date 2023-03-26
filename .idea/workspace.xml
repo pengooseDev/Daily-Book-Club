@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a40730d-5760-4804-926c-7836edcf2714" name="Changes" comment="" />
+    <list default="true" id="9a40730d-5760-4804-926c-7836edcf2714" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/coding/전혁/java/Daily-Book-Club",
+    "last_opened_file_path": "D:/f-lab/project/fitness-partner",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -158,6 +160,8 @@
       <workItem from="1679537074431" duration="916000" />
       <workItem from="1679538942693" duration="13000" />
       <workItem from="1679662267896" duration="719000" />
+      <workItem from="1679714625121" duration="180000" />
+      <workItem from="1679715428415" duration="29000" />
     </task>
     <servers />
   </component>
