@@ -40,3 +40,13 @@ https://www.youtube.com/playlist?list=PL4SIC1d_ab-aOxWPucn31NHkQvNPHK1D1
 
 
 ---
+
+
+학원에서 배워서 어느정도는 쉽게본다
+C++ 이 어려워 보이는건 단순히 문법문제때문이다
+(IDE 자동생성이 자 지원안하는건 한몫하고)
+C++은 문법이 3가지정도 된다
+
+cl
+
+포인터도 생각보다 쉽다
