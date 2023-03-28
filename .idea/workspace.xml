@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a40730d-5760-4804-926c-7836edcf2714" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/yarogono/F-lab/Java/12주 차/Select 쿼리 순서.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9a40730d-5760-4804-926c-7836edcf2714" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +27,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/coding/전혁/java/Daily-Book-Club",
+    "last_opened_file_path": "D:/f-lab/project/fitness-partner",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -165,7 +162,7 @@
       <workItem from="1679715428415" duration="29000" />
       <workItem from="1679799093964" duration="105000" />
       <workItem from="1679799698566" duration="43000" />
-      <workItem from="1679883301816" duration="297000" />
+      <workItem from="1679883301816" duration="905000" />
     </task>
     <servers />
   </component>
