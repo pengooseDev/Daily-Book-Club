@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a40730d-5760-4804-926c-7836edcf2714" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/yarogono/F-lab/Java/12주 차/MSA.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarogono/F-lab/Java/12주 차/인덱스를 많이 만들면 느려 지는 이유.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarogono/F-lab/Java/12주 차/트랜잭션의 장단점.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarogono/F-lab/Java/13주 차/포털 메인 페이지가 화면을 띄워놓은 상태에서 주기적으로 갱신 되기 위한 방법.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9a40730d-5760-4804-926c-7836edcf2714" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,7 +173,9 @@
       <workItem from="1680442447235" duration="623000" />
       <workItem from="1680489816626" duration="596000" />
       <workItem from="1680500229961" duration="603000" />
-      <workItem from="1680507684437" duration="302000" />
+      <workItem from="1680507684437" duration="587000" />
+      <workItem from="1680521314902" duration="16000" />
+      <workItem from="1680712053608" duration="185000" />
     </task>
     <servers />
   </component>
