@@ -211,13 +211,81 @@ B : 1
 
 
 
-## 세이더 그래프의 경로 바꾸기
+## 세이더 그래프의 경로 바꾸기  
 세이더의 이름을 바꾸려먼 세이더의 파일명을 바꿔야하고  
 세이더의 폴더를 바꿀려면 세이더그래프에서 폴더명과 경로를 적어줘야된다.  
-BlackBoard창에서 파일이름 아래 다른이름이 존재하는데 거기가 경로.  
-이런 경로를 사용하여 세이더들을 분류해주기  
+BlackBoard창에서 파일이름 아래 다른이름이 존재하는데 거기가 경로이다.   
+이런 경로를 사용하여 세이더들을 분류할수 있다.  
 
 
 ## 주의사항
 세이더그래프는 ctrl + s를 단축키가 작동되지않음  
+
+
+
+
+## Property 공통파라미터
+
+Name : Property의 이름  
+Reference : 입력 받은 값의 "변수값".(왠만해선 Name하고 Reference를 통일해주기)
+Default : 셰이더가 처음생성될때 가지게 될 "초기값"
+Precision : "정확도" 정도로 생각하면 됩니다. 플랫폼에 따라 셰이더에서 사용되는 숫자를 정밀도를 조절하는것인데,
+대부분의 경우 크게 신경 쓸필요는 없습니다.  
+(경험에 따르면 셰이더의 정밀도를 줄여서 메모리나 속도를 조금 절약하느니 텍스쳐한장을 줄이는게 더 효과가 좋습니다.)  
+-1. inherit : 뒤에 따라오는 노드의정밀도에 따라 변함
+-2. single : float 정밀도(32bit)를 사용
+-3. half : half(16bit)를 사용
+-4. usegraphprecision : 그래프 전체에서 사용하는 정밀도를 따릅니다.
+
+Exposed : 인스팩터에 노출되는 여부
+Override Property Declaration : 프로퍼티속성을 재선언
+global : 셰이더를 글로벌에서 제어
+per Material : 셰이더를 메터리얼별로 제어
+Hybrid Per Instance : DOTS를 사용할때 하이브리드 랜더라와 함계 셰이더를 사용하는 옵션
+
+
+프로퍼티 => 변수
+float mode에 Slider있음
+
+
+
+### Color Property
+mode에 HDR선택이 있음
+
+LDR(Low Dynamic range)
+
+HDR(High Dynamic range) => 1이상의 밝기를 만들때
+
+
+### category
+변수가 너무 많으면 예쁘게 묶어주는 역할
+
+
+
+
+### shaderGraph 
+
+masterStack : 실제로 셰이더에 값을 넣게 되는 최종결과 노드
+
+position : 위치
+normal : 노말
+tangent : 접선
+
+# Split와 Combine
+셰이더에서 노드의값은 자유자재로 섞거나 분해하거나 바꿔치기가 가능.  
+이부분을 자유자재로 해 ㄴ내는것이 셰이더의 기본이라고 해도 과언이 아닐정도로 중요.  
+
+### 1. 노드요소의 자리바꾸기
+Split => 요소분해
+Combine => 요소합침
+
+
+
+
+
+
+
+
+
+
 
