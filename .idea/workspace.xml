@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a40730d-5760-4804-926c-7836edcf2714" name="Changes" comment="" />
+    <list default="true" id="9a40730d-5760-4804-926c-7836edcf2714" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/yarogono/F-lab/Java/14주 차/Docker.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarogono/F-lab/Java/14주 차/NoSQL.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarogono/F-lab/Java/14주 차/디스크에 대해서, +SSD, + M.2, NVME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +32,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/coding/전혁/java/algorithm/Algorithm_JAVA",
+    "last_opened_file_path": "D:/coding/전혁/java/Daily-Book-Club",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -181,6 +186,8 @@
       <workItem from="1680829865725" duration="27000" />
       <workItem from="1680868673056" duration="126000" />
       <workItem from="1680954650438" duration="495000" />
+      <workItem from="1681046145435" duration="295000" />
+      <workItem from="1682345029635" duration="312000" />
     </task>
     <servers />
   </component>
